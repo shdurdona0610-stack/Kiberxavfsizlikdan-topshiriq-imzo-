@@ -1,3 +1,12 @@
+Kalit yaratish blok sxemasi
+```mermaid
+graph TD
+    A[Start] --> B[RSA kalit yaratish]
+    B --> C[Xususiy kalitni PEM ga yozish]
+    C --> D[Ochiq kalitni PEM ga yozish]
+    D --> E[Natijani chiqarish]
+    E --> F[End]
+```
 Imzoni yaratish blok sxemasi 
 ```mermaid
 graph TD
