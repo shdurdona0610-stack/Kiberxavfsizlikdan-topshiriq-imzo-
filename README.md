@@ -7,4 +7,3 @@ flowchart TD
     D --> E[Imzo yaratish<br>RSA-PSS + SHA256]
     E --> F[Xabar va imzoni chiqarish<br>print(message)<br>print(signature Base64)]
     F --> G[Tugatish]
-```
