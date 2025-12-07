@@ -1,6 +1,6 @@
 # Kiberxavfsizlikdan-topshiriq-imzo-
-mermaid 
-```flowchart TD
+```mermaid
+flowchart TD
     A[Boshlash] --> B[Kutubxonalarni import qilish]
     B --> C[Xususiy kalitni o'qish ("private.pem")]
     C --> D[Xabar tayyorlash<br>message = b"Durdona Shermuhammadova Anvar qizi"]
