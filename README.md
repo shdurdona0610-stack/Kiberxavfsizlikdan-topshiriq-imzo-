@@ -13,14 +13,13 @@ graph TD
     G --> H[End]
 ```mermaid
 graph TD
-    A[Start] --> B[public.pem faylini ochish]
-    B --> C[Ochiq kalitni yuklash]
-    C --> D[Xabar tayyorlash: "Durdona Shermuhammadova Anvar qizi"]
-    D --> E[Base64 formatidagi imzoni kiritish]
-    E --> F[Imzoni Base64 dan dekodlash]
-    F --> G[Imzoni tekshirish (RSA-PSS + SHA256)]
-    G --> H{Tekshirish natijasi?}
-    H -->|To‘g‘ri| I[✔️ Imzo to‘g‘ri!]
-    H -->|Noto‘g‘ri| J[❌ Imzo noto‘g‘ri!]
-    I --> K[End]
-    J --> K
+    A[Start] --> B[Ochiq kalitni ochish]
+    B --> C[Xabar tayyorlash: "Durdona S."]
+    C --> D[Base64 imzoni kiritish]
+    D --> E[Imzoni dekodlash]
+    E --> F[Imzoni tekshirish (RSA-PSS + SHA256)]
+    F --> G{Natija?}
+    G -->|To‘g‘ri| H[✔️ Imzo to‘g‘ri!]
+    G -->|Noto‘g‘ri| I[❌ Imzo noto‘g‘ri!]
+    H --> J[End]
+    I --> J
