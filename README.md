@@ -1,5 +1,5 @@
 # Kiberxavfsizlikdan-topshiriq-imzo-
-``` mermaidchart
+``` mermaid
 flowchart TD
     A[Boshlash] --> B[Kutubxonalarni import qilish]
     B --> C[Xususiy kalitni o'qish ("private.pem")]
