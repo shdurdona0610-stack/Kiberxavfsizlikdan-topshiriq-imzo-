@@ -1,5 +1,5 @@
 # Kiberxavfsizlikdan-topshiriq-imzo-
-``` mermaid
+**``` mermaid**
 flowchart TD
     A[Boshlash] --> B[Kutubxonalarni import qilish]
     B --> C[Xususiy kalitni o'qish ("private.pem")]
@@ -7,3 +7,4 @@ flowchart TD
     D --> E[Imzo yaratish<br>RSA-PSS + SHA256]
     E --> F[Xabar va imzoni chiqarish<br>print(message)<br>print(signature Base64)]
     F --> G[Tugatish]
+**```**
